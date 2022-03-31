@@ -16,10 +16,10 @@ handlers:
     script: auto
     secure: always
 
-default_expiration: "12h" # 静的ファイルのキャッシュ期間
+default_expiration: "12h"
 
 env_variables:
   NODE_ENV: "production"
 
 automatic_scaling:
-  min_instances: 0 # 動かしてないときはインスタンスを0にする
+  min_instances: 0
