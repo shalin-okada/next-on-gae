@@ -7,3 +7,6 @@ steps:
     args: ["build"]
   - name: gcr.io/cloud-builders/gcloud
     args: ["app", "deploy", "app.yaml", "--project=shalin-dev", "--quiet"]
+
+options:
+  logging: CLOUD_LOGGING_ONLY
