@@ -6,7 +6,7 @@ steps:
     entrypoint: yarn
     args: ["build"]
   - name: gcr.io/cloud-builders/gcloud
-    args: ["app", "deploy", "app.yaml", "--project=shalin-dev", "--quiet"]
+    args: ["app", "deploy", "app.yaml", "--project=my-fat-project", "--quiet"]
 
 options:
   logging: CLOUD_LOGGING_ONLY
